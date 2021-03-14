@@ -12,7 +12,7 @@ function findFloor(arr, num, low=0, high = arr.length) {
   if (num < arr[mid]){
       return findFloor(arr, num, low, mid -1);
   }
-//   return findFloor(arr, num, mid+ 1, high)
-// }
+  return findFloor(arr, num, mid+ 1, high)
+}
 
-// module.exports = findFloor
+module.exports = findFloor
