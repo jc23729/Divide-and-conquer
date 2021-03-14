@@ -6,9 +6,9 @@ function findFloor(arr, num, low=0, high = arr.length) {
 
   if (arr[mid] ===num) return arr[mid];
 
-//   if (mid > 0 && arr[mid -1] <=num && num < arr[mid] {
-//       return arr[mid -1];
-//   }
+  if (mid > 0 && arr[mid -1] <=num && num < arr[mid] {
+      return arr[mid -1];
+  }
 //   if (num < arr[mid]){
 //       return findFloor(arr, num, low, mid -1);
 //   }
